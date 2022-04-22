@@ -2,7 +2,7 @@ trigger: meeting_notes
 title: Meeting Notes
 description: Spawn up a template for notes. Great for multitasking SEs!
 surfaces:
-   - issue
+- issue
 steps:
   - type: form
     style: modal
