@@ -1,12 +1,9 @@
 trigger: meeting_notes
 title: Meeting Notes
+description: Spawn up a template for notes. Great for multitasking SEs!
 surfaces:
    - issue
-description: Spawn up a template for notes. Great for multitasking SE's!
-
-# Each command has one or more steps. You can add up to 25 steps.
 steps:
-  # This displays a form with a dropdown, text input, and markdown editor.
   - type: form
     style: modal
     body:
