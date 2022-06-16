@@ -45,10 +45,9 @@ jobs:
         languages: ${{ matrix.language }}
         debug: true
         
-    - uses: actions/upload-artifact@v3
+    - uses: actions/download-artifact@v3
       with:
-        name: my-artifact
-        path: debug-artifacts
+        name: debug-artifacts
         # If you wish to specify custom queries, you can do so here or in a config file.
         # By default, queries listed here will override any specified in a config file.
         # Prefix the list here with "+" to use these queries and those in the config file.
