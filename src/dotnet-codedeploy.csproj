@@ -4,5 +4,10 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>dotnet_codedeploy</RootNamespace>
   </PropertyGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.2" />
+    <PackageReference Include="ExamplePackage" Version="[1.0]" />
+  </ItemGroup>
 
 </Project>
